@@ -1,0 +1,15 @@
+function [ output_args ] = LyndaCh3_practice_function( input_args )
+%function output will be displayed when it's called with some input
+%arguments
+%   Detailed explanation goes here
+mean(input_args)
+for i = 0:9
+    output_args(i+1)=mean(input_args(250*i+1:250*i+250)) %make sure input_arg variable is consi
+end
+
+end
+
+%To run the function, type a =
+%LyndaCh3_practice_function(csvread('sample_data.csv')) in the command
+%window, it will generate a with 1X10 size.
+

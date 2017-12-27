@@ -1,0 +1,12 @@
+%Creating scalar variable
+a = 3
+% For multiple variable or matrix
+b = [4, 0, 2; 1, 2, 3]
+%Same as
+c = [4 0 2
+     1 2 3]
+%num to str converts numerical value to a string
+%strcat combines two strings (concatenation)
+d=
+
+
